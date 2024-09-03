@@ -169,7 +169,6 @@ const Gallery = () => {
       {/* Gallery Grid */}
      
     </div>
-    <Footer/>
     </div>
   );
 };
