@@ -6,7 +6,8 @@ import MainPage from "./components/MainPage";
 import Navbar from "./components/Navbar";
 import Login from "./components/Login";
 import Footer from "./components/Footer";
-
+import SignUp from "./components/SignUp"
+import Calendar from "../src/Calendar"
 function App() {
   return (
     <Router>
@@ -16,6 +17,8 @@ function App() {
         <Route path="/profile" element={<Layout><Profile /></Layout>} />
         <Route path="/booking" element={<Layout><Booking /></Layout>} />
         <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<SignUp />} />
+        <Route path="/calendar" element={<Calendar />} />
       </Routes>
     </Router>
   );
